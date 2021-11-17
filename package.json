@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/vchica41/BurgerKing/issues"
   },
-  "homepage": "https://github.com/vchica41/BurgerKing#readme"
+  "homepage": "https://github.com/vchica41/BurgerKing#readme",
+  "devDependencies": {
+    "cypress": "^9.0.0"
+  }
 }
