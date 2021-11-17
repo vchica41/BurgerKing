@@ -28,4 +28,24 @@ describe("My First Test", function () {
 
     cy.url().should("include", "/signup");
   });
+
+  it("Go to Menu then click Featured button", function () {
+    cy.visit("https://www.bk.com/");
+
+    cy.wait(2000);
+
+    cy.contains("Menu", {
+      force: true,
+      timeout: 6000,
+    }).click();
+
+    cy.wait(2000);
+
+    cy.contains("Featured", {
+      force: true,
+      timeout: 6000,
+    }).click();
+
+    cy.url().should("include", "/menu/section");
+  });
 });
