@@ -1,0 +1,23 @@
+{
+  "name": "burgerking",
+  "version": "1.0.0",
+  "description": "Automation Testing for burgerking.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vchica41/BurgerKing.git"
+  },
+  "keywords": [
+    "burgerking",
+    "automation"
+  ],
+  "author": "vchica41",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vchica41/BurgerKing/issues"
+  },
+  "homepage": "https://github.com/vchica41/BurgerKing#readme"
+}
